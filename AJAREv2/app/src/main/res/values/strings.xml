@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AJARE-v2</string>
+    <string-array name="role_array">
+        <item>Select one</item>
+        <item>Client</item>
+        <item>Employee</item>
+    </string-array>
+</resources>
