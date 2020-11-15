@@ -39,7 +39,7 @@ public class CreateActivity extends AppCompatActivity{
     private EditText editEmail;
     private String role;
 
-    private FirebaseFirestore db = FirebaseFirestore.getInstance();
+   final private FirebaseFirestore db = FirebaseFirestore.getInstance();
 
     Button login;
     TextView signUp;
@@ -60,14 +60,17 @@ public class CreateActivity extends AppCompatActivity{
         login = findViewById(R.id.loginnn);
 
         //Spinner setup
-        Spinner spinner = (Spinner) findViewById(R.id.role_spinner);
+        Spinner spinner =  findViewById(R.id.role_spinner);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
                 R.array.role_array, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
 
 
-
+        if(auth.getCurrentUser()!=null){
+            startActivity(new Intent(CreateActivity.this, MainActivity.class));
+            finish();
+        }
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -111,7 +114,7 @@ public class CreateActivity extends AppCompatActivity{
                                         }
 
                                         // User role
-                                        Spinner spinner = (Spinner)findViewById(R.id.role_spinner);
+                                        Spinner spinner =findViewById(R.id.role_spinner);
                                         String text = spinner.getSelectedItem().toString();
                                         if (text.equals(spinner.getItemAtPosition(2))){
                                             role = "employee";
