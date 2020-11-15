@@ -26,6 +26,8 @@ public class EmailActivity extends AppCompatActivity{
     Button login;
     TextView signUp;
     FirebaseAuth auth;
+    String name;
+    FirebaseUser user;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +38,7 @@ public class EmailActivity extends AppCompatActivity{
         passwordd = findViewById(R.id.passworddd);
         signUp = findViewById(R.id.create_btn);
         login = findViewById(R.id.loginnn);
+        user = FirebaseAuth.getInstance().getCurrentUser();
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -50,20 +53,11 @@ public class EmailActivity extends AppCompatActivity{
                     emailAddress.setError("Please enter a valid email address.");
                     emailAddress.requestFocus();
                 } else if (smot.isEmpty()){
-                    passwordd.setError("Please enter a password.");
+                    passwordd.setError("Please enter a valid password.");
                     passwordd.requestFocus();
-                } else if(smot.isEmpty() && email.isEmpty()){
-                    Toast.makeText(EmailActivity.this, "Fields are empty!!", Toast.LENGTH_SHORT).show();
-                } else if(!(smot.isEmpty() && email.isEmpty())){
-
-                    // add username
-                    FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-                    if(user.getDisplayName().equals(null)){
-                        UserProfileChangeRequest profileUpdates = new UserProfileChangeRequest.Builder()
-                                .setDisplayName(user.getEmail())
-                                .build();
-                        user.updateProfile(profileUpdates);
-                    }
+                } else if(smot.length()<6){
+                    Toast.makeText(EmailActivity.this, "Enter a password with at least 7 characters", Toast.LENGTH_SHORT).show();
+                } else{
 
                     // once validated, login
                     auth.signInWithEmailAndPassword(email, smot)
@@ -73,14 +67,17 @@ public class EmailActivity extends AppCompatActivity{
                             if(!task.isSuccessful()){
                                 Toast.makeText(EmailActivity.this, "An error occurred...", Toast.LENGTH_SHORT).show();
                             } else{
-                                startActivity(new Intent(EmailActivity.this, HomeActivity.class));
+                                if(user.getEmail().equals("admin@uottawa.ca")){
+                                    startActivity(new Intent(EmailActivity.this, AdminActivity.class));
+                                } else {
+                                    Toast.makeText(EmailActivity.this, "You succesfully logged in", Toast.LENGTH_SHORT).show();
+                                    startActivity(new Intent(EmailActivity.this, HomeActivity.class));
+                                }
                             }
                         }
                     });
                 }
-                else{
-                    Toast.makeText(EmailActivity.this, "Oh no! An error has occurred...", Toast.LENGTH_SHORT).show();
-                }
+
             }
         });
         signUp.setOnClickListener(new View.OnClickListener() {

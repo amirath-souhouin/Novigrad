@@ -15,6 +15,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".AdminActivity"></activity>
         <activity android:name=".ConnexionActivity"></activity>
         <activity android:name=".CreateActivity"></activity>
         <activity android:name=".EmailActivity"></activity>
@@ -23,6 +24,8 @@
         <activity android:name=".EmployeeActivity"></activity>
         <activity android:name=".WIPActivity"></activity>
         <activity android:name="NewUserActivity"></activity>
+        <activity android:name=".ManageAccActivity"></activity>
+        <activity android:name=".ManageServActivity"></activity>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

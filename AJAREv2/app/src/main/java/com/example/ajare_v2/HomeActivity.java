@@ -16,9 +16,7 @@ public class HomeActivity extends AppCompatActivity{
     FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
     FirebaseAuth auth = FirebaseAuth.getInstance();
 
-    String name = user.getDisplayName();
-    TextView userName = (TextView) findViewById(R.id.userName);
-    TextView role = (TextView) findViewById(R.id.role);
+    String name;
     Button signOut;
 
     @Override
@@ -26,7 +24,15 @@ public class HomeActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
+        TextView userName = (TextView) findViewById(R.id.userName);
+        TextView role = (TextView) findViewById(R.id.role);
 
+        name = user.getDisplayName();
+        if((name != null) && (name.contains("/"))){
+            name = name.split("/")[0];
+        } else if(name == null){
+            name = user.getEmail().split("@")[0];
+        }
         userName.setText(name);
         role.setText("Client");
 
