@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/julius_sans_one"
-        android:text="SERVICE"
+        android:text="CENTRE"
         android:textColor="#C6FFFFFF"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="@+id/novigrad"
@@ -150,5 +150,21 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/square" />
+
+    <Button
+        android:id="@+id/updateProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="99dp"
+        android:layout_marginLeft="99dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="103dp"
+        android:text="Update Your Information"
+        app:layout_constraintBottom_toTopOf="@+id/btn_signout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/role" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

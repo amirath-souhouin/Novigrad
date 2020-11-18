@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/julius_sans_one"
-        android:text="SERVICE"
+        android:text="CENTRE"
         android:textColor="#C6FFFFFF"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="@+id/novigrad"

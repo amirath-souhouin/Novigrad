@@ -26,7 +26,7 @@ public class EmailActivity extends AppCompatActivity{
     Button login;
     TextView signUp;
     FirebaseAuth auth;
- 
+
     FirebaseUser user;
 
     @Override
