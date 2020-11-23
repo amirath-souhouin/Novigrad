@@ -38,7 +38,6 @@ public class HomeActivity extends AppCompatActivity{
         setContentView(R.layout.activity_main_nav);
 
         TextView userName = findViewById(R.id.userName);
-        TextView role = findViewById(R.id.role);
 
         name = user.getDisplayName();
         if((name != null) && (name.contains("/"))){
@@ -46,8 +45,14 @@ public class HomeActivity extends AppCompatActivity{
         } else if(name == null){
             name = user.getEmail().split("@")[0];
         }
+
+        TextView role = findViewById(R.id.role);
+        if (user.getEmail().contains("@novigrad.com")){
+            role.setText("Employee");
+        } else {
+            role.setText("Client");
+        }
         userName.setText(name);
-        role.setText(R.string.roleclient);
 
         signOut =  findViewById(R.id.btn_signout);
         signOut.setOnClickListener(new View.OnClickListener() {
@@ -62,7 +67,7 @@ public class HomeActivity extends AppCompatActivity{
         updateProf.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(HomeActivity.this,WIPActivity.class));
+                startActivity(new Intent(HomeActivity.this, InformationClient.class));
             }
         });
         Toolbar toolbar = findViewById(R.id.toolbar);
@@ -92,7 +97,7 @@ public class HomeActivity extends AppCompatActivity{
                     return true;
                 }else if (R.id.nav_services == id){
 
-                    info = new Intent(HomeActivity.this, Client_Service.class);
+                    info = new Intent(HomeActivity.this, ManageServActivity.class);
                     startActivity(info);
                     return true;
                 }else if(id == R.id.nav_sign) {
@@ -149,7 +154,7 @@ public class HomeActivity extends AppCompatActivity{
             return true;
         }else if (R.id.nav_services == id){
 
-            info = new Intent(HomeActivity.this, Client_Service.class);
+            info = new Intent(HomeActivity.this, ManageServActivity.class);
             startActivity(info);
             return true;
         }else if(id == R.id.nav_sign) {
@@ -168,5 +173,12 @@ public class HomeActivity extends AppCompatActivity{
         }
         drawerl.closeDrawer(GravityCompat.START);
         return true;
+    }
+    public static boolean checkUserRole(String email){
+        if (email.contains("@novigrad.com")){
+            return  true;
+        } else {
+            return false;
+        }
     }
 }

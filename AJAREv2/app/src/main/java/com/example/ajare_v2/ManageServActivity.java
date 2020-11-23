@@ -158,7 +158,7 @@ public class ManageServActivity extends AppCompatActivity {
         dR.setValue(service);
     }
 
-    private void deleteService(String id) {
+    public void deleteService(String id) {
         DatabaseReference dR = FirebaseDatabase.getInstance().getReference("services").child(id);
         dR.removeValue();
     }
@@ -176,7 +176,5 @@ public class ManageServActivity extends AppCompatActivity {
         } else{
             Toast.makeText(this, "PLEASE ENTER A NAME", Toast.LENGTH_LONG).show();
         }
-
-
     }
 }

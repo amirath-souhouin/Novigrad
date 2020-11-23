@@ -26,9 +26,7 @@ public class EmailActivity extends AppCompatActivity{
     Button login;
     TextView signUp;
     FirebaseAuth auth;
-
     FirebaseUser user;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,7 +37,6 @@ public class EmailActivity extends AppCompatActivity{
         signUp = findViewById(R.id.create_btn);
         login = findViewById(R.id.loginnn);
         user = FirebaseAuth.getInstance().getCurrentUser();
-
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -49,13 +46,13 @@ public class EmailActivity extends AppCompatActivity{
                 String smot = passwordd.getText().toString();
 
                 // validate
-                if(email.isEmpty()){
+                if(emailIsEmpty(email)){
                     emailAddress.setError("Please enter a valid email address.");
                     emailAddress.requestFocus();
                 } else if (smot.isEmpty()){
                     passwordd.setError("Please enter a valid password.");
                     passwordd.requestFocus();
-                } else if(smot.length()<6){
+                } else if(!checkPasswordValidity(smot)){
                     Toast.makeText(EmailActivity.this, "Enter a password with at least 7 characters", Toast.LENGTH_SHORT).show();
                 } else{
 
@@ -87,4 +84,17 @@ public class EmailActivity extends AppCompatActivity{
             }
         });
     }
+   public static  boolean checkPasswordValidity(String smot){
+        if(smot.length()<6){
+            return false;
+        }
+        return  true;
+   }
+   public static boolean emailIsEmpty(String email){
+        if(email.isEmpty()){
+            return true;
+        }
+        return false;
+   }
+
 }

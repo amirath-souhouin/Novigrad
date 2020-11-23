@@ -10,7 +10,6 @@ import android.widget.ImageButton;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.StyleRes;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -21,7 +20,6 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class ManageAccActivity extends AppCompatActivity {
 
-    String emailToDelete;
     ImageButton back;
     Button deleteAcc;
     Button signOut;
@@ -35,14 +33,13 @@ public class ManageAccActivity extends AppCompatActivity {
         user = auth.getCurrentUser();
 
         EditText editemail = ((EditText) findViewById(R.id.emailToDelete));
-        editemail.setText(user.getEmail());
         deleteAcc = (Button) findViewById(R.id.deleteAcc);
         deleteAcc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 AlertDialog.Builder dialog = new AlertDialog.Builder(ManageAccActivity.this,R.style.DialogTheme);
                 dialog.setTitle("Are you sure you want?");
-                dialog.setMessage("Pursuing will permanantly delete this account and all your data will be lost");
+                dialog.setMessage("Pursuing will permanently delete this account and all your data will be lost");
                 dialog.setPositiveButton("Delete", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {

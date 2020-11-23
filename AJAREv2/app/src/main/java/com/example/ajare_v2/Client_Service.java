@@ -25,9 +25,9 @@ public class Client_Service extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_client__service);
+        setContentView(R.layout.activity_client_service);
         databaseServices =  FirebaseDatabase.getInstance().getReference("services");
-        listViewServices = findViewById(R.id.listViewService);
+        listViewServices = findViewById(R.id.listViewServices);
         services = new ArrayList<>();
     }
     @Override
