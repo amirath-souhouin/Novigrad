@@ -25,6 +25,7 @@ public class NewUserActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(NewUserActivity.this, CreateActivity.class));
+
             }
         });
         google = (Button) findViewById(R.id.googleee);

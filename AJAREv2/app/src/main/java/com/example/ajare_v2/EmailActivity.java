@@ -67,7 +67,7 @@ public class EmailActivity extends AppCompatActivity{
                             if(!task.isSuccessful()){
                                 Toast.makeText(EmailActivity.this, "An error occurred...", Toast.LENGTH_SHORT).show();
                             } else{
-                                if(user.getEmail().equals("admin@uottawa.ca")){
+                                if(user.getEmail().equals("admin@novigrad.com")){
                                     startActivity(new Intent(EmailActivity.this, AdminActivity.class));
                                 } else {
                                     Toast.makeText(EmailActivity.this, "You succesfully logged in", Toast.LENGTH_SHORT).show();

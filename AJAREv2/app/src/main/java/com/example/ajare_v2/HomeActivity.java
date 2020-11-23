@@ -62,7 +62,7 @@ public class HomeActivity extends AppCompatActivity{
         updateProf.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(HomeActivity.this, InformationClient.class));
+                startActivity(new Intent(HomeActivity.this,WIPActivity.class));
             }
         });
         Toolbar toolbar = findViewById(R.id.toolbar);
@@ -92,7 +92,7 @@ public class HomeActivity extends AppCompatActivity{
                     return true;
                 }else if (R.id.nav_services == id){
 
-                    info = new Intent(HomeActivity.this, ManageServActivity.class);
+                    info = new Intent(HomeActivity.this, Client_Service.class);
                     startActivity(info);
                     return true;
                 }else if(id == R.id.nav_sign) {
@@ -149,7 +149,7 @@ public class HomeActivity extends AppCompatActivity{
             return true;
         }else if (R.id.nav_services == id){
 
-            info = new Intent(HomeActivity.this, ManageServActivity.class);
+            info = new Intent(HomeActivity.this, Client_Service.class);
             startActivity(info);
             return true;
         }else if(id == R.id.nav_sign) {

@@ -67,10 +67,7 @@ public class CreateActivity extends AppCompatActivity{
         spinner.setAdapter(adapter);
 
 
-        if(auth.getCurrentUser()!=null){
-            startActivity(new Intent(CreateActivity.this, MainActivity.class));
-            finish();
-        }
+
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -130,7 +127,7 @@ public class CreateActivity extends AppCompatActivity{
                                         user.updateProfile(profileUpdates);
 
                                         saveNote();
-                                        if(user.getEmail().equals("admin@uottawa.ca")){
+                                        if(user.getEmail().equals("admin@novigrad.com")){
                                             startActivity(new Intent(CreateActivity.this, AdminActivity.class));
                                         } else {
                                         Toast.makeText(CreateActivity.this, "You succesfully created an account.", Toast.LENGTH_SHORT).show();
