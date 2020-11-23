@@ -27,7 +27,8 @@ import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.util.HashMap;
 import java.util.Map;
-
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 public class CreateActivity extends AppCompatActivity{
     private static final String TAG = "CreateActivity";
 
@@ -67,10 +68,7 @@ public class CreateActivity extends AppCompatActivity{
         spinner.setAdapter(adapter);
 
 
-        if(auth.getCurrentUser()!=null){
-            startActivity(new Intent(CreateActivity.this, MainActivity.class));
-            finish();
-        }
+
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -84,7 +82,11 @@ public class CreateActivity extends AppCompatActivity{
                 if(email.isEmpty()){
                     editEmail.setError("Please enter a valid email address.");
                     editEmail.requestFocus();
-                } else if (smot.isEmpty()){
+                } else if(emailIsValid(email)){
+                    editEmail.setError("Please enter a valid email address.");
+                    editEmail.requestFocus();
+                }
+                else if (smot.isEmpty()){
                     passwrd.setError("Please enter a password.");
                     passwrd.requestFocus();
                 } else if(name.isEmpty()){
@@ -118,10 +120,8 @@ public class CreateActivity extends AppCompatActivity{
                                         String text = spinner.getSelectedItem().toString();
                                         if (text.equals(spinner.getItemAtPosition(2))){
                                             role = "employee";
-                                            name = name + "/e";
                                         } else if (text.equals(spinner.getItemAtPosition(1))){
                                             role = "client";
-                                            name = name + "/c";
                                         }
                                         user = auth.getCurrentUser();
                                         UserProfileChangeRequest profileUpdates = new UserProfileChangeRequest.Builder()
@@ -130,7 +130,7 @@ public class CreateActivity extends AppCompatActivity{
                                         user.updateProfile(profileUpdates);
 
                                         saveNote();
-                                        if(user.getEmail().equals("admin@uottawa.ca")){
+                                        if(user.getEmail().equals("admin@novigrad.com")){
                                             startActivity(new Intent(CreateActivity.this, AdminActivity.class));
                                         } else {
                                         Toast.makeText(CreateActivity.this, "You succesfully created an account.", Toast.LENGTH_SHORT).show();
@@ -174,4 +174,21 @@ public class CreateActivity extends AppCompatActivity{
                     }
                 });
     }
+
+
+
+        public static boolean emailIsValid(String email)
+        {
+            String emailRegex = "^[a-zA-Z0-9_+&*-]+(?:\\."+
+                    "[a-zA-Z0-9_+&*-]+)*@" +
+                    "(?:[a-zA-Z0-9-]+\\.)+[a-z" +
+                    "A-Z]{2,7}$";
+
+            Pattern pat = Pattern.compile(emailRegex);
+            if (email == null)
+                return false;
+            return pat.matcher(email).matches();
+        }
+
+
 }

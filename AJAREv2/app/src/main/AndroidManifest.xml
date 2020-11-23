@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ajare_v2"
-    xmlns:dist="http://schemas.android.com/apk/distribution">
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.ajare_v2">
 
     <dist:module dist:instant="true" />
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
+
         android:icon="@mipmap/ic_launcherapp_foreground"
         android:label="Novigrad"
         android:roundIcon="@mipmap/ic_launcherapp_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
+        <activity android:name=".Client_Service" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Main_Nav"></activity>
+        <activity android:name=".Main_Nav" />
         <activity android:name=".AdminActivity" />
         <activity android:name=".ConnexionActivity" />
         <activity android:name=".CreateActivity" />
@@ -31,11 +34,13 @@
         <activity android:name=".WIPActivity" />
         <activity android:name=".NewUserActivity" />
         <activity android:name=".ManageAccActivity" />
-        <activity android:name=".ManageServActivity" />
+        <activity android:name=".ManageServActivity"
+            android:windowSoftInputMode="adjustNothing"/>
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
     </application>
 
 </manifest>

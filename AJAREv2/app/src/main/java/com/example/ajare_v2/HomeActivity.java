@@ -38,7 +38,6 @@ public class HomeActivity extends AppCompatActivity{
         setContentView(R.layout.activity_main_nav);
 
         TextView userName = findViewById(R.id.userName);
-        TextView role = findViewById(R.id.role);
 
         name = user.getDisplayName();
         if((name != null) && (name.contains("/"))){
@@ -46,8 +45,14 @@ public class HomeActivity extends AppCompatActivity{
         } else if(name == null){
             name = user.getEmail().split("@")[0];
         }
+
+        TextView role = findViewById(R.id.role);
+        if (user.getEmail().contains("@novigrad.com")){
+            role.setText("Employee");
+        } else {
+            role.setText("Client");
+        }
         userName.setText(name);
-        role.setText(R.string.roleclient);
 
         signOut =  findViewById(R.id.btn_signout);
         signOut.setOnClickListener(new View.OnClickListener() {
@@ -168,5 +173,12 @@ public class HomeActivity extends AppCompatActivity{
         }
         drawerl.closeDrawer(GravityCompat.START);
         return true;
+    }
+    public static boolean checkUserRole(String email){
+        if (email.contains("@novigrad.com")){
+            return  true;
+        } else {
+            return false;
+        }
     }
 }
