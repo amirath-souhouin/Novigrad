@@ -82,7 +82,7 @@ public class CreateActivity extends AppCompatActivity{
                 if(email.isEmpty()){
                     editEmail.setError("Please enter a valid email address.");
                     editEmail.requestFocus();
-                } else if(emailIsValid(email)){
+                } else if(!emailIsValid(email)){
                     editEmail.setError("Please enter a valid email address.");
                     editEmail.requestFocus();
                 }
