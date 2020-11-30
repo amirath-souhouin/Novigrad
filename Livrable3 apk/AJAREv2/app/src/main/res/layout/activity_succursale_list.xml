@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewSuccursaleName"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:background="#03DAC5"
+        android:text=""
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:translationX="75dp" />
+
+    <ImageView
+        android:id="@+id/imageView100"
+        android:layout_width="65dp"
+        android:layout_height="73dp"
+        android:translationY="-42dp"
+        app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
+
+    <TextView
+        android:id="@+id/textViewHour"
+        android:layout_width="267dp"
+        android:layout_height="92dp"
+        android:background="#ffff"
+        android:text=""
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="#03dac5"
+        android:translationX="75dp"
+        android:translationY="-75dp" />
+</LinearLayout>
