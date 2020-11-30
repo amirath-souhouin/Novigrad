@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextServiceName"
+        android:layout_width="403dp"
+        android:layout_height="57dp"
+        android:autofillHints="Enter Name"
+        android:hint="Enter a service Name"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/editTextDocument"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="24dp"
+        android:autofillHints="Enter Documents"
+        android:hint="Enter documents followed by comma"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextServiceName" />
+
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextDocument"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="263dp"
+        android:layout_marginBottom="63dp"
+        android:text="Add"
+        app:layout_constraintBottom_toTopOf="@+id/listViewServices"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDocument" />
+
+    <ListView
+        android:id="@+id/listViewServices"
+        android:layout_width="313dp"
+        android:layout_height="413dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginBottom="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addButton">
+
+    </ListView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

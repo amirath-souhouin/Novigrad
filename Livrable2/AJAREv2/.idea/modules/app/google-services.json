@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "106959100279",
+    "firebase_url": "https://novida-bc4ba.firebaseio.com",
+    "project_id": "novida-bc4ba",
+    "storage_bucket": "novida-bc4ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106959100279:android:a73f7108a563e662c36972",
+        "android_client_info": {
+          "package_name": "com.example.ajare_v2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106959100279-092uv5graeci4lg7lkfmltcvm5u7ulir.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCALk1KJPSo4D039ZH1IWfos5ubPk4KIRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106959100279-092uv5graeci4lg7lkfmltcvm5u7ulir.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

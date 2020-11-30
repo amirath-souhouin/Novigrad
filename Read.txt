@@ -3,4 +3,6 @@ Admin : admin@novigrad.com
 MDP: 123admin456
 Des fois, le fivhier Main_Nav se met automatiquement en minuscules, si c'est le cas le renommer svp comme :
 Main_Nav
-Information de connexion employe : morenikeemploye@novigrad.com mdp : 1234567
+Information de connexion employe : nike@novigrad.com mdp : 1234567
+compte succursale creer : mail : ottawanovigrad@novigrad.com mdp : 1234567
+

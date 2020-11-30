@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    tools:context=".ManageServActivity">
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="516dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="104dp"
+        android:width="2sp"
+        android:letterSpacing="1"
+        android:text="SERVICE MANAGER"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:textColor="#03DAC5"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editTextServiceName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="512dp"
+        android:layout_height="92dp"
+        android:layout_marginBottom="289dp"
+        android:width="2sp"
+        android:letterSpacing="1"
+        android:text="ADMIN PAGE"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:textColor="#03DAC5"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editTextServiceName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="138dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="248dp"
+        android:text="DOCUMENTS"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="376dp"
+        android:text="SERVICE "
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/editTextServiceName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextServiceName"
+        android:layout_width="258dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="524dp"
+        android:autofillHints="Enter Name"
+        android:hint="Enter the service name"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.376"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextDocuments"
+        android:layout_width="258dp"
+        android:layout_height="61dp"
+        android:layout_below="@id/editTextServiceName"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="100dp"
+        android:autofillHints="Enter the list of required files followed by a comma"
+        android:hint="Enter the list of required files"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/buttonUpdateProduct"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextServiceName"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="ObsoleteLayoutParam" />
+
+    <Button
+        android:id="@+id/buttonUpdateProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:text="UPDATE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonDeleteProduct"
+        tools:ignore="ButtonStyle" />
+
+    <Button
+        android:id="@+id/buttonDeleteProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="462dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="176dp"
+        android:text="Delete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonUpdateProduct"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextServiceName"
+        app:layout_constraintVertical_bias="0.754"
+        tools:ignore="ButtonStyle" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
