@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Search">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/succList"
+        android:layout_width="match_parent"
+        android:layout_height="503dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="144dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:translationY="70dp">
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="94dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="104dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="11dp"
+            android:text="Sort By"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/spinner_sort"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/searchEdit" />
+
+        <EditText
+            android:id="@+id/searchEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="31dp"
+            android:layout_marginBottom="47dp"
+            android:drawableStart="@android:drawable/ic_menu_search"
+            android:hint="Search  by Zip Code, Hour,Service Type..."
+            android:inputType="textAutoComplete"
+            app:layout_constraintBottom_toTopOf="@+id/textView26"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/spinner_sort"
+            android:popupBackground="@color/darkGray"
+            android:layout_width="139dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="58dp"
+            android:layout_marginTop="49dp"
+            android:layout_marginEnd="127dp"
+            android:layout_marginBottom="67dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView26"
+            app:layout_constraintTop_toBottomOf="@+id/searchEdit" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="52dp"
+        android:layout_height="55dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_baseline_work_24" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewS"
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:background="#03DAC5"
+            android:text="SERVICE"
+            android:textColor="#ffff"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+
+        <TextView
+            android:id="@+id/textViewAdd"
+            android:layout_width="321dp"
+            android:layout_height="37dp"
+            android:background="#ffff"
+            android:text="ADDRESS"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="#03dac5" />
+
+        <TextView
+            android:id="@+id/textViewHour"
+            android:layout_width="321dp"
+            android:layout_height="148dp"
+            android:background="#ffff"
+            android:text="HORAIRE"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="#03dac5"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
