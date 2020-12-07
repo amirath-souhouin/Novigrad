@@ -73,6 +73,7 @@ public class Search extends AppCompatActivity {
                 holder.list_serviceType.setText("Service Type : "+ model.getService_Type());
                 holder.list_adress.setText("Address:  "+model.getZipCode());
                 holder.list_hour.setText("Horaire\n"+model.getHoraire());
+
             }
 
         };
@@ -132,6 +133,7 @@ public class Search extends AppCompatActivity {
             list_serviceType = itemView.findViewById(R.id.textViewS);
             list_hour = itemView.findViewById(R.id.textViewHour);
         }
+
     }
 
     @Override

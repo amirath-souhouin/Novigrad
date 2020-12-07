@@ -109,7 +109,7 @@ public class HomeActivity extends AppCompatActivity{
                     startActivity(info);
                     return true;
                 }else if (id == R.id.nav_services){
-                    info = new Intent(HomeActivity.this, ManageServActivity.class);
+                    info = new Intent(HomeActivity.this, ServiceApply.class);
                     startActivity(info);
                     return true;
                 }else if(id == R.id.nav_sign) {

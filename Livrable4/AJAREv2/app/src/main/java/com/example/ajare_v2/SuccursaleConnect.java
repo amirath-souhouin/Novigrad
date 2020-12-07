@@ -22,7 +22,6 @@ import static com.example.ajare_v2.EmailActivity.emailIsEmpty;
 
 public class SuccursaleConnect extends AppCompatActivity {
     private static final String TAG = "EmailPassword";
-
     EditText emailAddress, passwordd;
     Button login;
     TextView signUp;
