@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <array name="preloaded_fonts" translatable="false">
-        <item>@font/bungee_hairline</item>
-        <item>@font/dr_sugiyama</item>
-        <item>@font/julius_sans_one</item>
-    </array>
-</resources>
