@@ -1,0 +1,102 @@
+com/example/ajare_v2/Succursale.java
+ com.example.ajare_v2.Succursale
+com/example/ajare_v2/ManageAccActivity.java
+ com.example.ajare_v2.ManageAccActivity
+ com.example.ajare_v2.ManageAccActivity$1
+ com.example.ajare_v2.ManageAccActivity$1$1
+ com.example.ajare_v2.ManageAccActivity$1$1$1
+ com.example.ajare_v2.ManageAccActivity$1$2
+ com.example.ajare_v2.ManageAccActivity$2
+ com.example.ajare_v2.ManageAccActivity$3
+com/example/ajare_v2/NewUserActivity.java
+ com.example.ajare_v2.NewUserActivity
+ com.example.ajare_v2.NewUserActivity$1
+ com.example.ajare_v2.NewUserActivity$2
+ com.example.ajare_v2.NewUserActivity$3
+com/example/ajare_v2/ServiceList.java
+ com.example.ajare_v2.ServiceList
+com/example/ajare_v2/EmployeeActivity.java
+ com.example.ajare_v2.EmployeeActivity
+ com.example.ajare_v2.EmployeeActivity$1
+com/example/ajare_v2/SuccursaleUI.java
+ com.example.ajare_v2.SuccursaleUI
+ com.example.ajare_v2.SuccursaleUI$1
+ com.example.ajare_v2.SuccursaleUI$2
+com/example/ajare_v2/Client_Service.java
+ com.example.ajare_v2.Client_Service
+ com.example.ajare_v2.Client_Service$1
+com/example/ajare_v2/Main_Nav.java
+ com.example.ajare_v2.Main_Nav
+com/example/ajare_v2/CreateActivity.java
+ com.example.ajare_v2.CreateActivity
+ com.example.ajare_v2.CreateActivity$1
+ com.example.ajare_v2.CreateActivity$2
+ com.example.ajare_v2.CreateActivity$2$1
+ com.example.ajare_v2.CreateActivity$3
+ com.example.ajare_v2.CreateActivity$4
+ com.example.ajare_v2.CreateActivity$5
+com/example/ajare_v2/SuccursaleList.java
+ com.example.ajare_v2.SuccursaleList
+com/example/ajare_v2/EmailActivity.java
+ com.example.ajare_v2.EmailActivity
+ com.example.ajare_v2.EmailActivity$1
+ com.example.ajare_v2.EmailActivity$1$1
+ com.example.ajare_v2.EmailActivity$2
+com/example/ajare_v2/Service.java
+ com.example.ajare_v2.Service
+com/example/ajare_v2/WIPActivity.java
+ com.example.ajare_v2.WIPActivity
+ com.example.ajare_v2.WIPActivity$1
+com/example/ajare_v2/MainActivity.java
+ com.example.ajare_v2.MainActivity
+ com.example.ajare_v2.MainActivity$1
+ com.example.ajare_v2.MainActivity$2
+com/example/ajare_v2/Schedule.java
+ com.example.ajare_v2.Schedule
+ com.example.ajare_v2.Schedule$1
+com/example/ajare_v2/InformationClient.java
+ com.example.ajare_v2.InformationClient
+com/example/ajare_v2/SpinnerActivity.java
+ com.example.ajare_v2.SpinnerActivity
+com/example/ajare_v2/clientService.java
+ com.example.ajare_v2.clientService
+com/example/ajare_v2/ConnexionActivity.java
+ com.example.ajare_v2.ConnexionActivity
+ com.example.ajare_v2.ConnexionActivity$1
+ com.example.ajare_v2.ConnexionActivity$2
+ com.example.ajare_v2.ConnexionActivity$3
+com/example/ajare_v2/AdminActivity.java
+ com.example.ajare_v2.AdminActivity
+ com.example.ajare_v2.AdminActivity$1
+ com.example.ajare_v2.AdminActivity$2
+ com.example.ajare_v2.AdminActivity$3
+com/example/ajare_v2/BuildConfig.java
+ com.example.ajare_v2.BuildConfig
+com/example/ajare_v2/ManageServActivity.java
+ com.example.ajare_v2.ManageServActivity
+ com.example.ajare_v2.ManageServActivity$1
+ com.example.ajare_v2.ManageServActivity$2
+ com.example.ajare_v2.ManageServActivity$3
+ com.example.ajare_v2.ManageServActivity$4
+ com.example.ajare_v2.ManageServActivity$5
+ com.example.ajare_v2.ManageServActivity$6
+ com.example.ajare_v2.ManageServActivity$7
+ com.example.ajare_v2.ManageServActivity$8
+com/example/ajare_v2/SuccursaleCreate.java
+ com.example.ajare_v2.SuccursaleCreate
+ com.example.ajare_v2.SuccursaleCreate$1
+ com.example.ajare_v2.SuccursaleCreate$2
+ com.example.ajare_v2.SuccursaleCreate$2$1
+ com.example.ajare_v2.SuccursaleCreate$2$1$1
+com/example/ajare_v2/HomeActivity.java
+ com.example.ajare_v2.HomeActivity
+ com.example.ajare_v2.HomeActivity$1
+ com.example.ajare_v2.HomeActivity$2
+ com.example.ajare_v2.HomeActivity$3
+ com.example.ajare_v2.HomeActivity$4
+ com.example.ajare_v2.HomeActivity$5
+com/example/ajare_v2/SuccursaleConnect.java
+ com.example.ajare_v2.SuccursaleConnect
+ com.example.ajare_v2.SuccursaleConnect$1
+ com.example.ajare_v2.SuccursaleConnect$1$1
+ com.example.ajare_v2.SuccursaleConnect$2

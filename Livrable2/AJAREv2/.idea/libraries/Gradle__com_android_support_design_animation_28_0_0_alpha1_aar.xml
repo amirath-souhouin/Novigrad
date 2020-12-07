@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.android.support:design-animation:28.0.0-alpha1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e232a1dd4feece19e14bae04be12f525/jetified-design-animation-28.0.0-alpha1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e232a1dd4feece19e14bae04be12f525/jetified-design-animation-28.0.0-alpha1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e232a1dd4feece19e14bae04be12f525/jetified-design-animation-28.0.0-alpha1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/design-animation/28.0.0-alpha1/a7bc2b1c7808d68cd6660ac73e668e822d912a6b/design-animation-28.0.0-alpha1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

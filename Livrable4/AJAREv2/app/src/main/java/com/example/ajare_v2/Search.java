@@ -49,11 +49,11 @@ public class Search extends AppCompatActivity {
         firebaseFirestore = FirebaseFirestore.getInstance();
         mSuccursaleList = findViewById(R.id.succList);
         //Spinner setup
-        Spinner spinner =  findViewById(R.id.spinner_sort);
+        Spinner spinner1 =  findViewById(R.id.spinner_sort);
         ArrayAdapter<CharSequence> adapter_ = ArrayAdapter.createFromResource(this,
                 R.array.sort_array, android.R.layout.simple_spinner_item);
         adapter_.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spinner.setAdapter(adapter_);
+        spinner1.setAdapter(adapter_);
         //Query
         Query query = firebaseFirestore.collection("succursales");
         //RecyclerOptions

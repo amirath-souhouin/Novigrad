@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.android.support:design-bottomnavigation:28.0.0-alpha1@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9b4ca3b3350f8241ac6bee4df54e5313/jetified-design-bottomnavigation-28.0.0-alpha1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9b4ca3b3350f8241ac6bee4df54e5313/jetified-design-bottomnavigation-28.0.0-alpha1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9b4ca3b3350f8241ac6bee4df54e5313/jetified-design-bottomnavigation-28.0.0-alpha1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9b4ca3b3350f8241ac6bee4df54e5313/jetified-design-bottomnavigation-28.0.0-alpha1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/design-bottomnavigation/28.0.0-alpha1/c1e089b5352e2ea6c08178772c55d7b1ccc45434/design-bottomnavigation-28.0.0-alpha1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

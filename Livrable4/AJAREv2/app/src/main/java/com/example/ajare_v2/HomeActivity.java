@@ -118,7 +118,7 @@ public class HomeActivity extends AppCompatActivity{
                     startActivity(new Intent(HomeActivity.this, MainActivity.class));
                     return true;
                 }else if(id==R.id.nav_rates) {
-                    startActivity(new Intent(HomeActivity.this, WIPActivity.class));
+                    startActivity(new Intent(HomeActivity.this, RateActivity.class));
                     return true;
                 }
                 else if( R.id.nav_share==id) {

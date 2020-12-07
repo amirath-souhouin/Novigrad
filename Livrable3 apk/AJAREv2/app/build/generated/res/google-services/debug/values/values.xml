@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">661633947700-iasejjqftugq9v792l3bgep6srps0cl1.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://novigrad-46243.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">661633947700</string>
+    <string name="google_api_key" translatable="false">AIzaSyAaG5FFdeBU2mYqZozHrZpySuR-5iGfefQ</string>
+    <string name="google_app_id" translatable="false">1:661633947700:android:9176c99236e59540b01261</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAaG5FFdeBU2mYqZozHrZpySuR-5iGfefQ</string>
+    <string name="google_storage_bucket" translatable="false">novigrad-46243.appspot.com</string>
+    <string name="project_id" translatable="false">novigrad-46243</string>
+</resources>

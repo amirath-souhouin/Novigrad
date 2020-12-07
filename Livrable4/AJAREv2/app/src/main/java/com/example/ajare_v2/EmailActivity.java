@@ -42,7 +42,7 @@ public class EmailActivity extends AppCompatActivity{
             public void onClick(View v) {
 
                 // get user info
-                String email = emailAddress.getText().toString();
+                final String email = emailAddress.getText().toString();
                 String smot = passwordd.getText().toString();
 
                 // validate

@@ -1,0 +1,6 @@
+com/example/ajare_v2/test/BuildConfig.java
+ com.example.ajare_v2.test.BuildConfig
+com/example/ajare_v2/ExampleInstrumentedTest.java
+ com.example.ajare_v2.ExampleInstrumentedTest
+com/example/ajare_v2/ManageAccActivityTest.java
+ com.example.ajare_v2.ManageAccActivityTest

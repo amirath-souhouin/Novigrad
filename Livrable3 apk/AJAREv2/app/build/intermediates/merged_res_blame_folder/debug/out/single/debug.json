@@ -1,0 +1,378 @@
+[
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_welcom.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-hdpi\\ic_welcom.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\font_dr_sugiyama.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\font\\dr_sugiyama.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_welcom.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_welcom.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_welcom_foreground.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-hdpi\\ic_welcom_foreground.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_featured_play_list_24.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\drawable\\ic_baseline_featured_play_list_24.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_welcom_foreground.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-mdpi\\ic_welcom_foreground.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_welcom_round.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_welcom_round.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_welcom_round.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_welcom_round.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_wip.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\layout\\activity_wip.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcherapp.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcherapp.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_welcom_round.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-mdpi\\ic_welcom_round.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_welcom.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_welcom.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcherapp_background.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\drawable\\ic_launcherapp_background.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\font_julius_sans_one.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\font\\julius_sans_one.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_logo_welcom.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\drawable\\ic_logo_welcom.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main_nav.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\layout\\activity_main_nav.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_service_list.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\layout\\activity_service_list.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcherapp.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcherapp.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_admin.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\layout\\activity_admin.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_succursale_list.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\layout\\activity_succursale_list.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcherapp_round.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcherapp_round.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_manageacc.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\layout\\activity_manageacc.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_welcom_round.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_welcom_round.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcherapp_foreground.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcherapp_foreground.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_person_24.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\drawable\\ic_baseline_person_24.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_manageserv.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\layout\\activity_manageserv.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcherapp.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcherapp.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_app_icon.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_app_icon.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\layout_update_dialog.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\layout\\update_dialog.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcherapp.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcherapp.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcherapp_round.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcherapp_round.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_app_icon.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-hdpi\\ic_app_icon.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\layout_admin_service_manager.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\layout\\admin_service_manager.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_check_box_outline_blank_24.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\drawable\\ic_baseline_check_box_outline_blank_24.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcherapp_round.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcherapp_round.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_app_icon.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_app_icon.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcherapp_foreground.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcherapp_foreground.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcherapp.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcherapp.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcherapp_round.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcherapp_round.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_share_24.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\drawable\\ic_baseline_share_24.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_app_icon.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_app_icon.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcherapp_foreground.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcherapp_foreground.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\layout\\nav_header.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_succursale_create.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\layout\\activity_succursale_create.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_welcom.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_welcom.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_connexion.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\layout\\activity_connexion.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_app_icon.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-mdpi\\ic_app_icon.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_new_account.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\layout\\activity_new_account.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_client_service.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\layout\\activity_client_service.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_welcom_round.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-hdpi\\ic_welcom_round.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_succursale_ui.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\layout\\activity_succursale_ui.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_welcom_foreground.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_welcom_foreground.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_app_icon.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_app_icon.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_settings_power_24.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\drawable\\ic_baseline_settings_power_24.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_welcom.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_welcom.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_service__list.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\layout\\content_service__list.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_email_create.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\layout\\activity_email_create.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcherapp.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcherapp.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcherapp_round.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcherapp_round.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_rsz_ic_app_icon.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-anydpi-v26\\rsz_ic_app_icon.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcherapp_round.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcherapp_round.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_service_list.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\layout\\layout_service_list.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_succursale_connect.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\layout\\activity_succursale_connect.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\font_bungee_hairline.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\font\\bungee_hairline.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcherapp_foreground.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcherapp_foreground.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_welcom_foreground.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_welcom_foreground.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_welcom.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-mdpi\\ic_welcom.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_client__service.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\layout\\activity_client__service.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\layout_schedule.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\layout\\schedule.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\layout\\toolbar.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcherapp_foreground.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcherapp_foreground.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_rate_review_24.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\drawable\\ic_baseline_rate_review_24.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_welcom_foreground.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_welcom_foreground.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_email.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\layout\\activity_email.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_welcom_background.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\drawable\\ic_welcom_background.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\menu_drawer_menu.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\menu\\drawer_menu.xml"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "Z:\\AJAREv2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_welcom_round.xml.flat",
+        "source": "Z:\\AJAREv2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_welcom_round.xml"
+    }
+]

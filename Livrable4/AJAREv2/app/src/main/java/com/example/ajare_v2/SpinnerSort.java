@@ -11,8 +11,8 @@ public class SpinnerSort extends Activity implements AdapterView.OnItemSelectedL
                                int pos, long id) {
         // An item was selected. You can retrieve the selected item using
         // parent.getItemAtPosition(pos)
-        Spinner spinner = findViewById(R.id.spinner_sort);
-        spinner.setOnItemSelectedListener(this);
+        Spinner spinner1 = findViewById(R.id.spinner_sort);
+        spinner1.setOnItemSelectedListener(this);
     }
 
     public void onNothingSelected(AdapterView<?> parent) {

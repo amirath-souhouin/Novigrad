@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:dist="http://schemas.android.com/apk/distribution"
-    package="com.example.ajare_v2">
+    package="com.example.ajare_v2" >
 
     <dist:module dist:instant="true" />
 
@@ -14,8 +14,10 @@
         android:label="Novigrad"
         android:roundIcon="@mipmap/ic_launcherapp_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".ServiceApply"></activity>
+        android:theme="@style/AppTheme" >
+        <activity android:name=".RateActivity" >
+        </activity>
+        <activity android:name=".ServiceApply" />
         <activity
             android:name=".Get_Information_Activity"
             android:label="@string/title_activity_get__information_"
@@ -24,7 +26,7 @@
         <activity android:name=".SuccursaleUI" />
         <activity android:name=".SuccursaleCreate" />
         <activity android:name=".Client_Service" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

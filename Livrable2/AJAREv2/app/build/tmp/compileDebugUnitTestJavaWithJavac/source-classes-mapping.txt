@@ -1,0 +1,4 @@
+com/example/ajare_v2/test.java
+ com.example.ajare_v2.test
+com/example/ajare_v2/ExampleUnitTest.java
+ com.example.ajare_v2.ExampleUnitTest

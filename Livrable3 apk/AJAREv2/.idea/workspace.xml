@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="pixel_3" />
+        <device id="pixel_3a" />
+        <pickBest>false</pickBest>
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fb157339-9da2-4d9e-b1d6-657fbbde3621" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_3a_API_30_x86]" />
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../AJAREv2\exportToHTML" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile_vertical" />
+        <option value="JUnit4 Test Class" />
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+        <option value="resourceFile" />
+        <option value="valueResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="WARN_ABOUT_CRLF" value="false" />
+    <option name="WARN_ABOUT_DETACHED_HEAD" value="false" />
+  </component>
+  <component name="ProjectId" id="1kKqeq0rMuYyEtZLVIXaaH238bi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="AJARE-v2.app" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_3a_API_30_x86" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-11-15T20:57:36.443Z" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="dynamic.classpath" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/test/java/com/example/ajare_v2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Properties" />
+    <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.685760667">
+      <recent name="com.example.ajare_v2" />
+    </key>
+    <key name="android.template.-1986476801">
+      <recent name="com.example.ajare_v2" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.ajare_v2" />
+    </key>
+    <key name="android.template.-583890739">
+      <recent name="com.example.ajare_v2" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="Z:\AJAREv2\app\src\main\res\layout" />
+      <recent name="C:\Users\asouh070\AJAREv2\app\src\main\res\layout" />
+    </key>
+    <key name="android.template.-1540280413">
+      <recent name="com.example.ajare_v2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\asouh070\AJAREv2\app\src\main\java\com\example\ajare_v2" />
+    </key>
+    <key name="android.template.1203553828">
+      <recent name="com.example.ajare_v2" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.ajare_v2" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.ajare_v2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android JUnit.testlivrable3">
+    <configuration name="ExampleUnitTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AJARE-v2.app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ajare_v2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ajare_v2" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ajare_v2.ExampleUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeActivityTest (1)" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AJARE-v2.app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ajare_v2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ajare_v2" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ajare_v2.HomeActivityTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeActivityTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AJARE-v2.app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ajare_v2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ajare_v2" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ajare_v2.HomeActivityTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManageAccActivityTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AJARE-v2.app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ajare_v2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ajare_v2" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ajare_v2.ManageAccActivityTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AJARE-v2.app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ajare_v2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ajare_v2" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ajare_v2.test" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testlivrable3" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AJARE-v2.app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ajare_v2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ajare_v2" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ajare_v2.testlivrable3" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="AJARE-v2.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android JUnit.testlivrable3" />
+        <item itemvalue="Android JUnit.test" />
+        <item itemvalue="Android JUnit.HomeActivityTest" />
+        <item itemvalue="Android JUnit.HomeActivityTest (1)" />
+        <item itemvalue="Android JUnit.ExampleUnitTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb157339-9da2-4d9e-b1d6-657fbbde3621" name="Default Changelist" comment="" />
+      <created>1605459728658</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605459728658</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="285" y="0" key="#HomeActivityTest" timestamp="1606087012264">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="285" y="0" key="#HomeActivityTest/0.0.1364.728@0.0.1364.728" timestamp="1606087012264" />
+    <state x="309" y="47" key="#Inspections" timestamp="1605656126327">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="309" y="47" key="#Inspections/0.0.1366.738@0.0.1366.738" timestamp="1605656126327" />
+    <state x="570" y="0" key="#ManageAccActivityTest" timestamp="1606039325201">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="570" y="0" key="#ManageAccActivityTest/0.0.1364.728@0.0.1364.728" timestamp="1606039325201" />
+    <state x="285" y="0" key="#ManageAccActivityTest_(1)" timestamp="1606037543092">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="285" y="0" key="#ManageAccActivityTest_(1)/0.0.1364.728@0.0.1364.728" timestamp="1606037543092" />
+    <state x="315" y="17" key="#PSD" timestamp="1606672579433">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="315" y="17" key="#PSD/0.0.1364.728@0.0.1364.728" timestamp="1606672579433" />
+    <state x="400" y="118" key="#PSD/0.0.1366.738@0.0.1366.738" timestamp="1605657301015" />
+    <state x="412" y="118" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1606034128555">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="412" y="118" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1364.728@0.0.1364.728" timestamp="1606034128555" />
+    <state x="900" y="24" key="#com.intellij.ide.util.MemberChooser" timestamp="1606095387918">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="900" y="24" key="#com.intellij.ide.util.MemberChooser/0.0.1364.728@0.0.1364.728" timestamp="1606095387918" />
+    <state x="282" y="173" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1606086498372">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="282" y="173" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1364.728@0.0.1364.728" timestamp="1606086498372" />
+    <state x="465" y="232" width="433" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606180779826">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="465" y="232" width="433" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1364.728@0.0.1364.728" timestamp="1606180779826" />
+    <state x="737" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606181362635">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="737" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1364.728@0.0.1364.728" timestamp="1606181362635" />
+    <state x="738" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1605650512733" />
+    <state x="414" y="212" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1605907486798">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="414" y="212" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1364.728@0.0.1364.728" timestamp="1605907486798" />
+    <state x="92" y="92" width="1181" height="545" key="AVDManager" timestamp="1606672901716">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="92" y="92" width="1181" height="545" key="AVDManager/0.0.1364.728@0.0.1364.728" timestamp="1606672901716" />
+    <state x="92" y="92" width="1182" height="544" key="AVDManager/0.0.1366.728@0.0.1366.728" timestamp="1605475701778" />
+    <state x="92" y="93" width="1182" height="552" key="AVDManager/0.0.1366.738@0.0.1366.738" timestamp="1605638174894" />
+    <state x="262" y="118" key="AndroidCreateResourceDirectoryDialog" timestamp="1606614236874">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="262" y="118" key="AndroidCreateResourceDirectoryDialog/0.0.1364.728@0.0.1364.728" timestamp="1606614236874" />
+    <state x="263" y="121" key="AndroidCreateResourceFileDialog" timestamp="1606614155671">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="263" y="121" key="AndroidCreateResourceFileDialog/0.0.1364.728@0.0.1364.728" timestamp="1606614155671" />
+    <state x="263" y="123" key="AndroidCreateResourceFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1605652862524" />
+    <state x="526" y="152" key="AndroidCreateXmlResourceDialog" timestamp="1606611594641">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="526" y="152" key="AndroidCreateXmlResourceDialog/0.0.1364.728@0.0.1364.728" timestamp="1606611594641" />
+    <state x="527" y="154" key="AndroidCreateXmlResourceDialog/0.0.1366.738@0.0.1366.738" timestamp="1605651869288" />
+    <state x="473" y="109" key="AndroidProcessChooserDialog" timestamp="1606097102843">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="473" y="109" key="AndroidProcessChooserDialog/0.0.1364.728@0.0.1364.728" timestamp="1606097102843" />
+    <state x="462" y="118" key="FileChooserDialogImpl" timestamp="1606092782200">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="462" y="118" key="FileChooserDialogImpl/0.0.1364.728@0.0.1364.728" timestamp="1606092782200" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605473587174" />
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1605654357856" />
+    <state width="1320" height="116" key="GridCell.Tab.0.bottom" timestamp="1606712724384">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state width="1320" height="116" key="GridCell.Tab.0.bottom/0.0.1364.728@0.0.1364.728" timestamp="1606712724384" />
+    <state width="1323" height="136" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605473420792" />
+    <state width="1320" height="116" key="GridCell.Tab.0.center" timestamp="1606712724384">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state width="1320" height="116" key="GridCell.Tab.0.center/0.0.1364.728@0.0.1364.728" timestamp="1606712724384" />
+    <state width="1323" height="136" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605473420792" />
+    <state width="1320" height="116" key="GridCell.Tab.0.left" timestamp="1606712724384">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state width="1320" height="116" key="GridCell.Tab.0.left/0.0.1364.728@0.0.1364.728" timestamp="1606712724384" />
+    <state width="1323" height="136" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605473420792" />
+    <state width="1320" height="116" key="GridCell.Tab.0.right" timestamp="1606712724384">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state width="1320" height="116" key="GridCell.Tab.0.right/0.0.1364.728@0.0.1364.728" timestamp="1606712724384" />
+    <state width="1323" height="136" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605473420792" />
+    <state width="1320" height="289" key="GridCell.Tab.1.bottom" timestamp="1605911517015">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state width="1320" height="289" key="GridCell.Tab.1.bottom/0.0.1364.728@0.0.1364.728" timestamp="1605911517015" />
+    <state width="1320" height="289" key="GridCell.Tab.1.center" timestamp="1605911517015">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state width="1320" height="289" key="GridCell.Tab.1.center/0.0.1364.728@0.0.1364.728" timestamp="1605911517015" />
+    <state width="1320" height="289" key="GridCell.Tab.1.left" timestamp="1605911517015">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state width="1320" height="289" key="GridCell.Tab.1.left/0.0.1364.728@0.0.1364.728" timestamp="1605911517015" />
+    <state width="1320" height="289" key="GridCell.Tab.1.right" timestamp="1605911517015">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state width="1320" height="289" key="GridCell.Tab.1.right/0.0.1364.728@0.0.1364.728" timestamp="1605911517015" />
+    <state x="263" y="106" key="IDE.errors.dialog" timestamp="1605729019192">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="263" y="106" key="IDE.errors.dialog/0.0.1364.728@0.0.1364.728" timestamp="1605729019192" />
+    <state x="263" y="106" key="IDE.errors.dialog/0.0.1366.728@0.0.1366.728" timestamp="1605473641213" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1606022967246">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1364.728@0.0.1364.728" timestamp="1606022967246" />
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605463144693" />
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1605641048284" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1606033629141">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1364.728@0.0.1364.728" timestamp="1606033629141" />
+    <state x="368" y="127" key="chooseDestDirectoryDialog" timestamp="1606086507634">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="368" y="127" key="chooseDestDirectoryDialog/0.0.1364.728@0.0.1364.728" timestamp="1606086507634" />
+    <state x="357" y="55" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1605912896242">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="357" y="55" key="com.intellij.javaee.MapExternalResourceDialog/0.0.1364.728@0.0.1364.728" timestamp="1605912896242" />
+    <state x="323" y="171" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1606086507654">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="323" y="171" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1364.728@0.0.1364.728" timestamp="1606086507654" />
+    <state x="251" y="92" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1605908215394">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="251" y="92" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1364.728@0.0.1364.728" timestamp="1605908215394" />
+    <state x="388" y="97" width="587" height="534" key="find.popup" timestamp="1605908796745">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="388" y="97" width="587" height="534" key="find.popup/0.0.1364.728@0.0.1364.728" timestamp="1605908796745" />
+    <state x="504" y="50" key="psd.add.library.dependency.panel.dimension" timestamp="1606023187353">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="504" y="50" key="psd.add.library.dependency.panel.dimension/0.0.1364.728@0.0.1364.728" timestamp="1606023187353" />
+    <state x="504" y="115" key="psd.add.library.dependency.panel.dimension/0.0.1366.738@0.0.1366.738" timestamp="1605657293141" />
+    <state x="338" y="157" key="run.anything.popup" timestamp="1606618632017">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="338" y="157" key="run.anything.popup/0.0.1364.728@0.0.1364.728" timestamp="1606618632017" />
+    <state x="345" y="49" width="672" height="679" key="search.everywhere.popup" timestamp="1606703794025">
+      <screen x="0" y="0" width="1364" height="728" />
+    </state>
+    <state x="345" y="49" width="672" height="679" key="search.everywhere.popup/0.0.1364.728@0.0.1364.728" timestamp="1606703794025" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1605463942191" />
+    <state x="346" y="50" width="672" height="688" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1605652725524" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ajare_v2/Main_Nav.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ajare_v2/HomeActivity.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-field">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/ajare_v2/ManageServActivity.java</url>
+          <line>35</line>
+          <properties field="databaseServices" class="com.example.ajare_v2.ManageServActivity" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

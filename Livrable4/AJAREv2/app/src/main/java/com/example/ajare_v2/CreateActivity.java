@@ -68,7 +68,7 @@ public class CreateActivity extends AppCompatActivity{
         //Spinner setup
         Spinner spinner =  findViewById(R.id.role_spinner);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-                R.array.sort_array, android.R.layout.simple_spinner_item);
+                R.array.role_array, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
 
@@ -100,7 +100,7 @@ public class CreateActivity extends AppCompatActivity{
                 if(email.isEmpty()){
                     editEmail.setError("Please enter a valid email address.");
                     editEmail.requestFocus();
-                } else if(!emailIsValid(email)){
+                } else if(emailIsValid(email)){
                     editEmail.setError("Please enter a valid email address.");
                     editEmail.requestFocus();
                 }

@@ -59,11 +59,11 @@ public class Get_Information_Activity extends AppCompatActivity {
     DatabaseReference databaseReference;
     StorageReference storageReference;
     String id;
-    Map<String, Object> information;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-         information = new HashMap<>();
+
         setContentView(R.layout.activity_information_);
         prenom=(EditText)findViewById(R.id.prenom);
         nom=(EditText)findViewById(R.id.nom);
@@ -106,9 +106,8 @@ public class Get_Information_Activity extends AppCompatActivity {
             submit.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-
+                    Map<String, Object>  information = new HashMap<>();
                     DocumentReference documentReference = fStore.collection("information").document(id);
-
                     String first_name = prenom.getText().toString().trim();
                     String laste_name = nom.getText().toString().trim();
                     String gmail = mail.getText().toString().trim();
@@ -121,6 +120,8 @@ public class Get_Information_Activity extends AppCompatActivity {
                         @Override
                         public void onSuccess(Void aVoid) {
                             Log.d(TAG,"Succesfully submitted a service request: "+ id);
+                            Toast.makeText(Get_Information_Activity.this,"Service Request Submitted",Toast.LENGTH_SHORT).show();
+                            finish();
                         }
                     });
 
@@ -141,6 +142,7 @@ public class Get_Information_Activity extends AppCompatActivity {
         protected void onActivityResult ( int requestCode, int resultCode,
         @Nullable final Intent data){
             super.onActivityResult(requestCode, resultCode, data);
+            Map<String, Object> information = new HashMap<>();
             if (requestCode == 12 && resultCode == RESULT_OK && data != null && data.getData() != null) {
                 upload.setEnabled(true);
                 pdf.setText(data.getDataString().substring(data.getDataString().lastIndexOf("/") + 1));
