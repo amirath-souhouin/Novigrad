@@ -6,6 +6,8 @@
     <dist:module dist:instant="true" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
 
     <application
         android:allowBackup="true"
@@ -14,6 +16,10 @@
         android:roundIcon="@mipmap/ic_launcherapp_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity
+            android:name=".Get_Information_Activity"
+            android:label="@string/title_activity_get__information_"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".SuccursaleConnect" />
         <activity android:name=".SuccursaleUI" />
         <activity android:name=".SuccursaleCreate" />
